@@ -1,5 +1,15 @@
+@import "../public/Fonts/Fonts.css";
 @import "tailwindcss";
 
+@theme{
+  --font-primary: 'Cabinet_bold', sans-serif;
+  --font-secondary: 'Cabinet_Medium', sans-serif;
+  --font-tertiary: 'Cakra', monospace;
+  --color-primary: #fc5800;
+}
 body {
-  background-color: #000;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  text-transform: uppercase;
 }
